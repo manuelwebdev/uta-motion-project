@@ -22,5 +22,21 @@ function onItemTap(args) {
     });
 }
 
+function favorites(args) {
+    console.log("Hello World!");
+    console.log(args);
+    // const view = args.view;
+    // const page = view.page;
+    // const tappedItem = view.bindingContext;
+
+    // page.frame.navigate({
+    //     moduleName: "favorites/favorites-page",
+    //     context: tappedItem
+    // });
+
+    
+}
+
+exports.favorites = favorites;
 exports.onItemTap = onItemTap;
 exports.onNavigatingTo = onNavigatingTo;
