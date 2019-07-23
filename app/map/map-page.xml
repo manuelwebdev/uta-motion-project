@@ -1,0 +1,25 @@
+<Page 
+class="page"
+navigatingTo="onNavigatingTo"
+xmlns="http://schemas.nativescript.org/tns.xsd" 
+xmlns:map="nativescript-mapbox" 
+navigatingTo="navigatingTo">
+ <ActionBar class="action-bar">
+        <Label class="action-bar-title" text="Map"></Label>
+    </ActionBar>
+  <StackLayout>
+    <!-- <Label text="Nice map, huh!" class="title"/> -->
+    <ContentView height="640" width="400">
+      <!-- IMPORTANT: plugin version 3 uses :MapboxView, lower versions use :Mapbox -->
+      <map:MapboxView
+          accessToken="pk.eyJ1IjoiamFtZXNkZXNpZ25zIiwiYSI6ImNqdzJraDZ6dDA1MzMzem5uYWlvaWtqMXcifQ.TsX_YhN7MDaZ8zz5HYedFg"
+          mapStyle="mapbox://styles/jamesdesigns/cjwjrdz4e02s01cn049tblo5u"
+          latitude="40.759775"
+          longitude="-111.896019"
+          zoomLevel="8"
+          showUserLocation="true"
+          mapReady="onMapReady">
+      </map:MapboxView>
+    </ContentView>
+  </StackLayout>
+</Page>

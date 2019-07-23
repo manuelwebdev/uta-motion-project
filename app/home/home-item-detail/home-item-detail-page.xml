@@ -1,0 +1,37 @@
+<Page
+    class="page"
+    navigatingTo="onNavigatingTo"  
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+
+
+    <ActionBar class="action-bar">
+        <NavigationButton tap="onBackButtonTap" android.systemIcon="ic_menu_back"/>
+        <Label class="action-bar-title stationTitle" text="{{ name }}"></Label>
+    </ActionBar>
+
+    <ScrollView>
+
+        <StackLayout orientation="vertical" width="410" height="1510" backgroundColor="white">
+            
+            <Label style="font-size: 20px; font-weight: bold; line-height: 3;" class="m-5 station topM" row="0" col="0" colspan="2" text="{{ station }}"></Label>
+            <Label style="font-size: 20px; line-height: 3;" class="m-5 h3 station" row="0" col="1" colspan="2" text="{{ address }}"></Label> 
+            <Label style="font-size: 20px; line-height: 3;" class="m-5 h3 station" row="0" col="2" colspan="2" text="{{ city }}"></Label>
+            
+            <!-- <Button style="background-color: red;" class="btn btn-primary m-t-10" text="{{ NBtime ? 'Hide' : 'Show' }}" tap="toggle"></Button>
+            <Label text="This is a bunch of text." visibility="{{ NBtime ? 'visible' : 'collapsed' }}" textWrap="true" width="410" height="190" backgroundColor="darkgray"><Label></Label></Label> -->
+            <Button style="background-color: red;" class="btn btn-primary m-t-10" text="{{ NBtime ? 'Hide' : 'North Bound' }}" tap="toggle"></Button>
+            
+            <FlexboxLayout width="400" height="500">
+                <Label  style="font-size: 20px; line-height: 3;" text="{{ routes.NBtime }}" textWrap="true"></Label>
+                <!-- <Label text="{{ routes.NBtime }}" textWrap="true" width="410" height="190" backgroundColor="darkgray"></Label> -->
+            </FlexboxLayout>
+    
+            <Button style="background-color: red;" class="btn btn-primary m-t-10" text="{{ SBtime ? 'Hide' : 'South Bound' }}" tap="toggle"></Button>
+            <FlexboxLayout width="400" height="550">
+                <Label style="font-size: 20px; line-height: 3;" text="{{ routes.SBtime }}" textWrap="true" width="410" height="190"></Label>
+            </FlexboxLayout>
+
+       </StackLayout>
+    </ScrollView> 
+
+</Page>

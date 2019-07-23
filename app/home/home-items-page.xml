@@ -1,0 +1,22 @@
+<Page
+    class="page"
+    navigatingTo="onNavigatingTo"  
+    xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <ActionBar class="action-bar">
+        <Image width="150" src="~/images/uta-logo-v2.png" stretch="none" ></Image>
+    </ActionBar>
+
+
+
+    <ListView items="{{ items }}" itemTap="onItemTap" class="list-group">
+        <ListView.itemTemplate>
+            <StackLayout orientation="horizontal" class="list-group-item">
+            <!-- <Button text="{{ name }}"></Button> -->
+                <Label style="font-size: 20px;" class="stationTitle" text="{{ name }}" textWrap="true"></Label>
+                
+            </StackLayout>
+        </ListView.itemTemplate>
+    </ListView>
+
+</Page>

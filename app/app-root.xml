@@ -1,0 +1,41 @@
+<!--
+The TabView component provides a simple way to navigate between different views by
+tapping on some of the tabs or by swiping between the views.
+Learn more about the TabView component in this documentation article:
+http://docs.nativescript.org/cookbook/ui/tab-view
+-->
+<!-- <TabView tabTextFontSize="15" selectedTabTextColor="red" tabBackgroundColor="lightgray" androidTabsPosition="bottom" class="customTab">
+    <TabViewItem title="Routes" ios:iconSource="res://tabIcons/subway" android:iconSource="res://home" width="50" height="50" stretch="aspectFill">
+        <Frame defaultPage="home/home-items-page"></Frame>
+    </TabViewItem>
+
+    <TabViewItem title="Map" ios:iconSource="res://tabIcons/map" android:iconSource="res://map">
+        <Frame defaultPage="map/map-page"></Frame>
+    </TabViewItem>
+
+    <TabViewItem title="Favorites" ios:iconSource="res://tabIcons/heart" android:iconSource="res://favorites">
+        <Frame defaultPage="favorites/favorites-page"></Frame>
+    </TabViewItem>
+
+    <TabViewItem title="Alerts" ios:iconSource="res://tabIcons/alert" android:iconSource="res://alert">
+        <Frame defaultPage="alerts/alerts-page"></Frame>
+    </TabViewItem>
+</TabView> -->
+
+<TabView tabTextFontSize="15" selectedTabTextColor="red" tabBackgroundColor="lightgray" androidTabsPosition="bottom" class="customTab">
+    <TabViewItem class="fa" title="Routes" ios:iconSource="res://tabIcons/subway" android:iconSource="res://train" >
+        <Frame defaultPage="home/home-items-page"></Frame>
+    </TabViewItem>
+
+    <TabViewItem class="fa" title="Map" ios:iconSource="res://tabIcons/map-marker-alt" android:iconSource="res://map-marker-alt">
+        <Frame defaultPage="map/map-page"></Frame>
+    </TabViewItem>
+
+    <TabViewItem class="fa" title="Favorites" ios:iconSource="res://tabIcons/heart" android:iconSource="res://heart">
+        <Frame defaultPage="favorites/favorites-page"></Frame>
+    </TabViewItem>
+
+    <TabViewItem class="fa" title="Alerts" ios:iconSource="res://tabIcons/exclamation-triangle" android:iconSource="res://searexclamation-triangle">
+        <Frame defaultPage="alerts/alerts-page"></Frame>
+    </TabViewItem>
+</TabView>
