@@ -12,9 +12,8 @@
     <ListView items="{{ items }}" itemTap="onItemTap" class="list-group">
         <ListView.itemTemplate>
             <StackLayout orientation="horizontal" class="list-group-item">
-            <!-- <Button text="{{ name }}"></Button> -->
+                <Button class="page-icon far" text="&#xff004;    "></Button>
                 <Label style="font-size: 20px;" class="stationTitle" text="{{ name }}" textWrap="true"></Label>
-                
             </StackLayout>
         </ListView.itemTemplate>
     </ListView>

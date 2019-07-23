@@ -22,8 +22,9 @@ http://docs.nativescript.org/cookbook/ui/tab-view
     </TabViewItem>
 </TabView> -->
 
-<TabView tabTextFontSize="15" selectedTabTextColor="red" tabBackgroundColor="lightgray" androidTabsPosition="bottom" class="customTab">
-    <TabViewItem class="fa" title="Routes" ios:iconSource="res://tabIcons/subway" android:iconSource="res://train" >
+<TabView tabTextFontSize="15" selectedTabTextColor="red" tabBackgroundColor="lightgray" androidTabsPosition="bottom" width="50" height="50" stretch="aspectFill" class="customTab">
+    <!-- <TabViewItem class="fa" title="Routes" ios:iconSource="res://tabIcons/subway" android:iconSource="res://train" > -->
+    <TabViewItem class="fa" title="Routes" ios:iconSource="res://tabIcons/home" android:iconSource="res://home">
         <Frame defaultPage="home/home-items-page"></Frame>
     </TabViewItem>
 
