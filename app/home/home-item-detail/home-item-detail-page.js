@@ -11,11 +11,21 @@ exports.loaded = function(args) {
   args.object.bindingContext = pageData;  
 }
 
-exports.toggle = function() {
-pageData.set("NBtime", !pageData.get("NBtime"));
-};
+// exports.toggle = function() {
+// pageData.set("NBtime", !pageData.get("NBtime"));
+// };
 
 // End of NEW
+
+function onTap(args){
+    console.log(args);
+    button = args.object;
+    // button.bindingContext = true;
+    button.text = 'Hide';
+
+}
+
+exports.onTap = onTap;
 
 
 function onNavigatingTo(args) {
