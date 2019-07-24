@@ -1,3 +1,4 @@
+const webViewModule = require("tns-core-modules/ui/web-view");
 // NEW
 const dialogsModule = require("tns-core-modules/ui/dialogs");
 // const ogdenN = `Hello World!`;
@@ -17,6 +18,8 @@ exports.loaded = function(args) {
 
 // End of NEW
 
+
+
 function onTap(args){
     console.log(args);
     // button = args.object;
@@ -30,7 +33,6 @@ exports.onTap = onTap;
 
 function onNavigatingTo(args) {
     const page = args.object;
-
     page.bindingContext = args.context;
 }
 

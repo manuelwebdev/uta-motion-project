@@ -8,6 +8,7 @@ function HomeItemsViewModel() {
                 station: "Ogden Station",
                 address: "2393 South Wall Avenue",
                 city: "Ogden, UT 84511",
+                url: "https://www.rideuta.com",
                 northBound: "North Bound",
                 southBound: "South Bound",
                 routes: { 
@@ -20,6 +21,7 @@ function HomeItemsViewModel() {
                 station: "Roy Station",
                 address: "4155 S. Sandridge Dr.",
                 city: "Roy, UT",
+                url: "https://www.rideuta.com",
                 northBound: "North Bound",
                 southBound: "South Bound",
                 routes: {
@@ -32,6 +34,7 @@ function HomeItemsViewModel() {
                 station: "Clearfield Station",
                 address: "1250 S. State St.",
                 city: "Clearfield, UT",
+                url: "https://www.rideuta.com",
                 northBound: "North Bound",
                 southBound: "South Bound",
                 routes: {
@@ -44,6 +47,7 @@ function HomeItemsViewModel() {
                 station: "Layton Station",
                 address: "150 S. Main St.",
                 city: "Layton, UT",
+                url: "https://www.rideuta.com",
                 northBound: "North Bound",
                 southBound: "South Bound",
                 routes: {
@@ -56,6 +60,7 @@ function HomeItemsViewModel() {
                 station: "Farmington Station",
                 address: "450 N. 850 W.",
                 city: "Farmington, UT",
+                url: "https://www.rideuta.com",
                 northBound: "North Bound",
                 southBound: "South Bound",
                 routes: {
@@ -68,6 +73,7 @@ function HomeItemsViewModel() {
                 station: "Wood Cross Station",
                 address: "750 S. 800 W.",
                 city: "Woods Cross, UT",
+                url: "https://www.rideuta.com",
                 northBound: "North Bound",
                 southBound: "South Bound",
                 routes: {
@@ -80,6 +86,7 @@ function HomeItemsViewModel() {
                 station: "North Temple Station",
                 address: "500 W. North Temple",
                 city: "Salt Lake City, UT",
+                url: "https://www.rideuta.com",
                 northBound: "North Bound",
                 southBound: "South Bound",
                 routes: {
@@ -92,6 +99,7 @@ function HomeItemsViewModel() {
                 station: "Salt Lake Central",
                 address: "250 S. 600 W.",
                 city: "Salt Lake City, UT",
+                url: "https://www.rideuta.com",
                 northBound: "North Bound",
                 southBound: "South Bound",
                 routes: {
@@ -104,6 +112,7 @@ function HomeItemsViewModel() {
                 station: "Murray Central Station",
                 address: "140 W. Vine St.",
                 city: "Murray, UT",
+                url: "https://www.rideuta.com",
                 northBound: "North Bound",
                 southBound: "South Bound",
                 routes: {
@@ -116,6 +125,7 @@ function HomeItemsViewModel() {
                 station: "South Jordan Station",
                 address: "10351 South Jordan Gateway",
                 city: "South Jordan, UT",
+                url: "https://www.rideuta.com",
                 northBound: "North Bound",
                 southBound: "South Bound",
                 routes: { 
@@ -128,6 +138,7 @@ function HomeItemsViewModel() {
                 station: "Draper Station",
                 address: "12997 S. FrontRunner Blvd.",
                 city: "Draper, UT",
+                url: "https://www.rideuta.com",
                 northBound: "North Bound",
                 southBound: "South Bound",
                 routes: {
@@ -140,6 +151,7 @@ function HomeItemsViewModel() {
                 station: "Lehi Station",
                 address: "3101 N. Ashton Blvd.",
                 city: "Lehi, UT",
+                url: "https://www.rideuta.com",
                 northBound: "North Bound",
                 southBound: "South Bound",
                 routes: {
@@ -152,6 +164,7 @@ function HomeItemsViewModel() {
                 station: "American Fork Station",
                 address: "782 W. 200 S.",
                 city: "American Fork, UT",
+                url: "https://www.rideuta.com",
                 northBound: "North Bound",
                 southBound: "South Bound",
                 routes: {
@@ -164,6 +177,7 @@ function HomeItemsViewModel() {
                 station: "Orem Central Station",
                 address: "1350 W. 900 S.",
                 city: "Orem, UT",
+                url: "https://www.rideuta.com",
                 northBound: "North Bound",
                 southBound: "South Bound",
                 routes: {
@@ -176,6 +190,7 @@ function HomeItemsViewModel() {
                 station: "Provo Station",
                 address: "690 S. University Ave.",
                 city: "Provo, UT",
+                url: "https://www.rideuta.com",
                 northBound: "North Bound",
                 southBound: "South Bound",
                 routes: {

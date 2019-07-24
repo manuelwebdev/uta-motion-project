@@ -16,7 +16,7 @@
             <Label style="font-size: 25px; color: #c11327; font-weight: bold;" class="m-5 station topM" row="0" col="0" colspan="2" text="{{ station }}"></Label>
             <Label style="font-size: 20px; color: #c11327; line-height: 3;" class="m-5 station" row="0" col="1" colspan="2" text="{{ address }}"></Label> 
             <Label style="font-size: 20px; color: #c11327; line-height: 3;" class="m-5 station" row="0" col="2" colspan="2" text="{{ city }}"></Label>
-            
+            <Label style="font-size: 20px; color: #c11327; line-height: 3;" class="m-5 station" row="0" col="2" colspan="2" text="{{ url }}"></Label>
             <!-- <Button style="background-color: red;" class="btn btn-primary m-t-10" text="{{ NBtime ? 'Hide' : 'Show' }}" tap="toggle"></Button>
             <Label text="This is a bunch of text." visibility="{{ NBtime ? 'visible' : 'collapsed' }}" textWrap="true" width="410" height="190" backgroundColor="darkgray"><Label></Label></Label> -->
             <!-- <Button style="background-color: red;" class="btn btn-primary m-t-10" text="{{ NBtime ? 'Hide' : 'North Bound' }}" touch="onTap"></Button> -->
