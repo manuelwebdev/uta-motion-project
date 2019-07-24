@@ -1,10 +1,6 @@
-const webViewModule = require("tns-core-modules/ui/web-view");
 // NEW
 const dialogsModule = require("tns-core-modules/ui/dialogs");
-// const ogdenN = `Hello World!`;
-
-// New
-var observable = require("tns-core-modules/data/observable");
+const observable = require("tns-core-modules/data/observable");
 var pageData = new observable.Observable();
 
 exports.loaded = function(args) {
