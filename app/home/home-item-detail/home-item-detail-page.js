@@ -19,9 +19,9 @@ exports.loaded = function(args) {
 
 function onTap(args){
     console.log(args);
-    button = args.object;
-    // button.bindingContext = true;
-    button.text = 'Hide';
+    // button = args.object;
+    // // button.bindingContext = true;
+    // button.text = 'Hide';
 
 }
 
