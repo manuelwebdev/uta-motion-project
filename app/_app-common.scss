@@ -3,8 +3,9 @@
 // Font icon class
 
 .iconFont {
-    font-size: 25;
+    font-size: 23;
     color: red;
+    padding-top:3.75px;
 }
 
 
@@ -55,6 +56,10 @@
 .action-bar {
     background-color: red;
 }
+.action-bar-title {
+    font-size: 24;
+    font-weight: bold;
+}
 
 .station {
     margin-left: 10%;
@@ -68,4 +73,5 @@
 
 .stationTitle {
     padding-bottom:2%;
+    font-size: 25;
 }
