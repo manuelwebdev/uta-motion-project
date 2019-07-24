@@ -22,21 +22,22 @@ http://docs.nativescript.org/cookbook/ui/tab-view
     </TabViewItem>
 </TabView> -->
 
-<TabView tabTextFontSize="15" selectedTabTextColor="red" tabBackgroundColor="lightgray" androidTabsPosition="bottom" width="50" height="50" stretch="aspectFill" class="customTab">
-    <!-- <TabViewItem class="fa" title="Routes" ios:iconSource="res://tabIcons/subway" android:iconSource="res://train" > -->
-    <TabViewItem class="fa" title="Routes" ios:iconSource="res://tabIcons/home" android:iconSource="res://home">
-        <Frame defaultPage="home/home-items-page"></Frame>
+<TabView selectedTabTextColor="red" tabBackgroundColor="lightgray" androidTabsPosition="bottom" style="font-family:FontAwesome;" stretch="aspectFill" class="fa fa-brands fa-regular-900 fa-solid-900 iconFont">
+    <!-- <TabViewItem title="Routes" ios:iconSource="res://tabIcons/subway" android:iconSource="res://train" > -->
+    <!-- <TabViewItem title="&#xff239;"> -->
+    <TabViewItem class="iconFont" title="&#xff239; Routes">
+            <Frame defaultPage="home/home-items-page"></Frame>
     </TabViewItem>
 
-    <TabViewItem class="fa" title="Map" ios:iconSource="res://tabIcons/map-marker-alt" android:iconSource="res://map-marker-alt">
-        <Frame defaultPage="map/map-page"></Frame>
+    <TabViewItem title="&#xff041; Map">
+            <Frame defaultPage="map/map-page"></Frame>  
     </TabViewItem>
 
-    <TabViewItem class="fa" title="Favorites" ios:iconSource="res://tabIcons/heart" android:iconSource="res://heart">
+    <TabViewItem title="&#xff004; Favorites">
         <Frame defaultPage="favorites/favorites-page"></Frame>
     </TabViewItem>
 
-    <TabViewItem class="fa" title="Alerts" ios:iconSource="res://tabIcons/exclamation-triangle" android:iconSource="res://searexclamation-triangle">
-        <Frame defaultPage="alerts/alerts-page"></Frame>
+    <TabViewItem title="&#xff071; Alerts">
+            <Frame defaultPage="alerts/alerts-page"></Frame>
     </TabViewItem>
 </TabView>
