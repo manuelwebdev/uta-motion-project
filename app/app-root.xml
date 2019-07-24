@@ -5,21 +5,21 @@ Learn more about the TabView component in this documentation article:
 http://docs.nativescript.org/cookbook/ui/tab-view
 -->
 
-<TabView tabTextFontSize="21" selectedTabTextColor="red" tabBackgroundColor="lightgray" androidTabsPosition="bottom" style="font-family:FontAwesome;" stretch="aspectFill" class="fa fa-brands fa-regular-900 fa-solid-900 iconFont">
+<TabView tabTextFontSize="26" selectedTabTextColor="red" tabBackgroundColor="white" androidTabsPosition="bottom" style="font-family:FontAwesome;" class="p-t-5 fa iconFont">
  
-    <TabViewItem title="&#xff239; Routes">
+    <TabViewItem class="p-t-5" title="&#xff239;">
             <Frame defaultPage="home/home-items-page"></Frame>
     </TabViewItem>
 
-    <TabViewItem title="&#xff041; Map">
+    <TabViewItem class="p-t-5" title="&#xff041;">
             <Frame defaultPage="map/map-page"></Frame>  
     </TabViewItem>
 
-    <TabViewItem title="&#xff004; Favorites">
+    <TabViewItem class="p-t-5" title="&#xff004;">
         <Frame defaultPage="favorites/favorites-page"></Frame>
     </TabViewItem>
 
-    <TabViewItem title="&#xff071; Alerts">
+    <TabViewItem class="-t-5" title="&#xff071;">
             <Frame defaultPage="alerts/alerts-page"></Frame>
     </TabViewItem>
 </TabView>
