@@ -4,27 +4,9 @@ tapping on some of the tabs or by swiping between the views.
 Learn more about the TabView component in this documentation article:
 http://docs.nativescript.org/cookbook/ui/tab-view
 -->
-<!-- <TabView tabTextFontSize="15" selectedTabTextColor="red" tabBackgroundColor="lightgray" androidTabsPosition="bottom" class="customTab">
-    <TabViewItem title="Routes" ios:iconSource="res://tabIcons/subway" android:iconSource="res://home" width="50" height="50" stretch="aspectFill">
-        <Frame defaultPage="home/home-items-page"></Frame>
-    </TabViewItem>
-
-    <TabViewItem title="Map" ios:iconSource="res://tabIcons/map" android:iconSource="res://map">
-        <Frame defaultPage="map/map-page"></Frame>
-    </TabViewItem>
-
-    <TabViewItem title="Favorites" ios:iconSource="res://tabIcons/heart" android:iconSource="res://favorites">
-        <Frame defaultPage="favorites/favorites-page"></Frame>
-    </TabViewItem>
-
-    <TabViewItem title="Alerts" ios:iconSource="res://tabIcons/alert" android:iconSource="res://alert">
-        <Frame defaultPage="alerts/alerts-page"></Frame>
-    </TabViewItem>
-</TabView> -->
 
 <TabView selectedTabTextColor="red" tabBackgroundColor="lightgray" androidTabsPosition="bottom" style="font-family:FontAwesome;" stretch="aspectFill" class="fa fa-brands fa-regular-900 fa-solid-900 iconFont">
-    <!-- <TabViewItem title="Routes" ios:iconSource="res://tabIcons/subway" android:iconSource="res://train" > -->
-    <!-- <TabViewItem title="&#xff239;"> -->
+ 
     <TabViewItem class="iconFont" title="&#xff239; Routes">
             <Frame defaultPage="home/home-items-page"></Frame>
     </TabViewItem>
