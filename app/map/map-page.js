@@ -24,8 +24,8 @@ function onMapReady(args) {
         subtitle: "2393 S. Wall Ave.",
         selected: true, // makes the callout show immediately when the marker is added (note: only 1 marker can be selected at a time)
         onCalloutTap: function() { 
-          // console.log("derp"); 
-          // MapViewModel.frame.navigate("./modal/modal");
+          console.log("Test"); 
+        //   MapViewModel.frame.navigate("./home/home-item-detail/home-item-detail-page");
         }
       },
       {
@@ -34,7 +34,7 @@ function onMapReady(args) {
         title: "Roy",
         subtitle: "4155 S. Sandridge Dr.",
         selected: true, // makes the callout show immediately when the marker is added (note: only 1 marker can be selected at a time)
-        onCalloutTap: function() { console.log("'derp2"); }
+        onCalloutTap: function() { console.log("Test2"); }
       },
       {
         lat: 41.094714,
