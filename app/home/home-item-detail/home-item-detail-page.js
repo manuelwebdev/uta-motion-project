@@ -8,18 +8,17 @@ exports.loaded = function(args) {
   args.object.bindingContext = pageData;  
 }
 
-// exports.toggle = function() {
-// pageData.set("NBtime", !pageData.get("NBtime"));
-// };
-
 // End of NEW
 
+exports.toggle = function() {
+    pageData.set("NBtime", !pageData.get("NBtime"));
+}
 
 
 function onTap(args){
     console.log(args);
     // button = args.object;
-    // // button.bindingContext = true;
+    // button.bindingContext = true;
     // button.text = 'Hide';
 
 }
