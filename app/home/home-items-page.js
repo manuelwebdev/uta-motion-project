@@ -50,6 +50,11 @@ function favorites(args) {
     // });
 }
 
+function toggleFav(arg) {
+    
+}
+
+
 exports.favorites = favorites;
 exports.onItemTap = onItemTap;
 exports.onNavigatingTo = onNavigatingTo;
