@@ -48,10 +48,6 @@ function favorites(args) {
     //     moduleName: "favorites/favorites-page",
     //     context: tappedItem
     // });
-
-  
-
-    
 }
 
 exports.favorites = favorites;
