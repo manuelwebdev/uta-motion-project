@@ -33,14 +33,14 @@ function onItemTap(args) {
 }
 
 function favorites(args) {
-    console.log("Hello World!"); 
+    console.log("Hello World!");
     console.log(args);
     let favorites = 'SAVE ';
 
     const button = args.object;
     button.text = `${favorites}`;
 
-    
+
 
     // const view = args.view;
     // const page = view.page;
@@ -52,15 +52,15 @@ function favorites(args) {
     // });
 }
 
-const bindTest = {
-    sourceProperty: "sourceProp",
-    targetProperty: "text",
-    twoWay: false
-};
+// const bindTest = {
+//     sourceProperty: "sourceProp",
+//     targetProperty: "text",
+//     twoWay: false
+// };
 targetButton.bind(bindTest, source);
 
 function toggleFav(arg) {
-
+console.log("toggleFav");
 }
 
 
