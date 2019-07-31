@@ -40,6 +40,8 @@ function favorites(args) {
     const button = args.object;
     button.text = `${favorites}`;
 
+    
+
     // const view = args.view;
     // const page = view.page;
     // const tappedItem = view.bindingContext;
@@ -50,8 +52,15 @@ function favorites(args) {
     // });
 }
 
+const bindTest = {
+    sourceProperty: "sourceProp",
+    targetProperty: "text",
+    twoWay: false
+};
+targetButton.bind(bindTest, source);
+
 function toggleFav(arg) {
-    
+
 }
 
 
