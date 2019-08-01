@@ -11,7 +11,6 @@
                 <Button tap="favorites" class="iconFont fa" text="{{ favorite ? '&#xff004;   ' : '&#xff08a;   '}}"></Button>
                 <!-- <Button tap="favorites" class="iconFont far" text="&#xff004;    "></Button> -->
                 <Label style="font-size: 20px;" class="stationTitle" text="{{ name }}" textWrap="true"></Label>
-                <Button text="{{ sourceProp }}" tap="toggleFav"></Button>
             </StackLayout>
         </ListView.itemTemplate>
     </ListView>
